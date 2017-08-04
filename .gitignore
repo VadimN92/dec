@@ -4,6 +4,7 @@ npm-debug.log
 *.js.map
 app/**/*.js
 hooks/
+.idea/
 lib/
 node_modules/
 platforms/
