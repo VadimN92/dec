@@ -1,0 +1,12 @@
+<ActionBar title="_words">
+    <ActionItem text="_create" [nsRouterLink]="['/words/create']" ios.position="right"></ActionItem>
+</ActionBar>
+
+<GridLayout>
+    <ListView [items]="words">
+        <template let-item="item">
+            <Label [text]="item.phrase + ' - ' + item.translate"></Label>
+        </template>
+    </ListView>
+
+</GridLayout>

@@ -1,0 +1,6 @@
+<ActionBar title="_create">
+    <ActionItem text="_save" ios.position="right"></ActionItem>
+</ActionBar>
+<StackLayout>
+    <Label text="word modify"></Label>
+</StackLayout>
